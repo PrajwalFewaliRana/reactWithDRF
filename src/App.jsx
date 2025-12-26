@@ -6,6 +6,10 @@ import LearnUseMemo from "./components/LearnUseMemo";
 import LearnUseState from "./components/LearnUseState";
 import ChildA from "./components/UseContext/ChildA";
 import LearnUseRef from "./components/LearnUseRef";
+import LearnCustomHooks from "./components/LearnCustomHooks";
+import LearnConditionalRendering from "./components/LearnConditionalRendering";
+import LearnMap from "./components/LearnMap";
+import LearnInlineCSS from "./components/LearnInlineCSS";
 
 const stockContext = createContext();
 const userContext = createContext();
@@ -31,7 +35,11 @@ function App() {
           <ChildA />
         </userContext.Provider>
       </stockContext.Provider> */}
-      <LearnUseRef />
+      {/* <LearnUseRef /> */}
+      {/* <LearnCustomHooks /> */}
+      {/* <LearnConditionalRendering /> */}
+      {/* <LearnMap /> */}
+      <LearnInlineCSS />
     </>
   );
 }
