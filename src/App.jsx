@@ -10,6 +10,8 @@ import LearnCustomHooks from "./components/LearnCustomHooks";
 import LearnConditionalRendering from "./components/LearnConditionalRendering";
 import LearnMap from "./components/LearnMap";
 import LearnInlineCSS from "./components/LearnInlineCSS";
+import LearnLoadingImage from "./components/LearnLoadingImage";
+import LearnForm from "./components/LearnForm";
 
 const stockContext = createContext();
 const userContext = createContext();
@@ -39,7 +41,9 @@ function App() {
       {/* <LearnCustomHooks /> */}
       {/* <LearnConditionalRendering /> */}
       {/* <LearnMap /> */}
-      <LearnInlineCSS />
+      {/* <LearnInlineCSS /> */}
+      {/* <LearnLoadingImage /> */}
+      <LearnForm />
     </>
   );
 }
